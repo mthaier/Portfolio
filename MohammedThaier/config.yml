@@ -1,0 +1,74 @@
+## Example Config file
+BaseURL: "https://github.mthaier.io"
+theme: "terminalcv"
+title: "Mohammed Thaier portfolio"
+
+params:
+  description: "4s3ti cv terminal format"
+  prompt: "newuser@terminalcv"
+# promptColor: grey
+# promptSimbols: ":~$"
+# promptSimbolsColor: grey
+# startxLocation: https://example.com
+# hideSocialName: true
+# exitLocation: 'about:blank'
+# hidesource: true
+  greeting: | 
+    Hello World!
+
+
+    Type 'help' for a list of available commands
+
+
+  whois: 
+      name: "Mohammed Thaier"
+      profession: "Software development"
+      email: "devmoethaier@proton.me"
+      homelink: "https://github.mthaier.io"
+      description: |
+              The rawest form of freedome; is suffering by choice 
+
+  social:
+    ## IF you want to keep them aligned just add spaces
+    - name: "github"
+      url: "https://github.com/mthaier"
+    - name: "instagram"
+      url: "https://www.instagram.com/e2.wave/"
+    - name: "Art account"
+      url: "https://www.instagram.com/e0.wave/"
+
+  workexp:
+    - jobTitle: Backend dev
+      color: red
+      company: 'Digital Logic' 
+      location: Iraq
+      date: August 2023 - Present
+      description: Backend development ASP.NET
+
+  education:
+   - courseName: Network Engineering
+     color: red
+     date: June 2022 - Present
+     description: Usual computer science and engineering stuff
+
+  skills:
+    - name: C#/.net - Backend
+      color: blue
+      percentage: 37
+
+    - name: Python, Lua, Bash - Scripting
+      color: blue
+      percentage: 48
+
+    - name: Game dev - Graphic development
+      color: blue
+      percentage: 50
+
+  languages:
+    - name: English
+      color: Blue
+      percentage: 60
+
+    - name: Arabic
+      color: Blue
+      percentage: 90

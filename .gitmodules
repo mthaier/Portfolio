@@ -1,0 +1,8 @@
+[submodule "MohammedThaier/mthaier.github.io"]
+	path = MohammedThaier/mthaier.github.io
+	url = https://github.com/mthaier/mthaier.github.io
+	branch = main
+[submodule "MohammedThaier/public"]
+	path = MohammedThaier/public
+	url = https://github.com/mthaier/mthaier.github.io
+	branch = main
